@@ -5,7 +5,7 @@ class Node
     @name = name
   end
 
-  def children?
+  def children
     [@left, @right].compact
   end
 end
